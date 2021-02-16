@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="nayuta-portfolio">
+  <title>nayuta-portfolion | toppage</title>
+  <link rel="stylesheet icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="container">
+      <div class="header-left">
+        <img class="header-logo" src="images/logo.png" alt="nayuta-portfolio">
+      </div>
+
+      <div class="header-right">
+        <ul class="menu">
+          <li class="menu__single">
+            <div onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+              <a class="init-bottom" style="cursor:pointer;">Menu</a>
+            </div>
+            <!-- 折りたたまれる -->
+            <div id="open" style="display:none;clear:both;">
+              <ul class="menu__second-level">
+                <li><a href="#Top">Top</a></li>
+                <li><a href="#Hobby">Hobby</a></li>
+                <li><a href="#SNS">SNS</a></li>
+              </ul>
+            </div>
+            <!-- -->
+          </li>
+        </ul>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+  <a name="Top"></a>
+  <!-- メインビジュアル -->
+  <div class="main-visual">
+    <div class="container">
+      <h1 class="top-title">nayuta portfolio</h1>
+      <!-- <h2 class = "top-subtitle">ポートフォリオ制作中</h2> -->
+      <p class="top-text">随時更新予定</p>
+    </div>
+  </div>
+
+  <!-- Hobby -->
+  <a name="Hobby"></a>
+  <div class="Hobby">
+    <div class="container">
+      <div class="box">
+        <h2>Hobby</h2>
+        <h3>競技プログラミング</h3>
+        <p><b>AtCoder</b> : <a href="https://atcoder.jp/users/nayuta">AtCoder</a></p>
+        <p><b>Paiza</b> : S rank</p>
+        <p><b>精進記録</b> : <a href="https://kenkoooo.com/atcoder/?user=nayuta#/user/nayuta">AtCoderProblems</a></p>
+        <img class="Hobby-image" src="images/01.jpg" alt="01">
+      </div>
+    </div>
+  </div>
+
+  <a name="SNS"></a>
+  <div class="SNS">
+    <div class="container">
+      <div class="box">
+        <h2>SNS</h2>
+        <p><b>Twitter</b> : <a href="https://twitter.com/nayuta_kyopro?lang=ja" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="footer-left"></div>
+
+      <div class="footer-right">
+        &copy; 2019 nayuta-portfolio.
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>

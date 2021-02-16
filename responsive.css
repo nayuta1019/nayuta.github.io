@@ -1,0 +1,45 @@
+@charset "utf-8";
+@media (max-width: 1024px) {
+    .main-visual {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    .top-title {
+        font-size: 60px;
+    }
+}
+@media (max-width: 670px) {
+
+    .main-visual{
+        background-position: 73% 70%;
+    }
+
+    .top-title{
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+    
+    .top-subtitle{
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .top-text{
+        opacity: 0.9;
+    }
+    .Hobby {
+        padding: 60px 0;
+    }
+    .Hobby-image {
+        width: 280px;
+    }
+    .Hobby p {
+        font-size: 13px;
+    }
+    .footer-right {
+        padding-top: 20px;
+    }
+}
+
+
+
